@@ -1,0 +1,43 @@
+name: clocking_system
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  data_table_2: ^2.5.11
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.9
+  get: ^4.6.6
+  intl: ^0.19.0
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/pngs/
+    - assets/svgs/
+    - assets/fonts/
+    
+    
+  fonts:
+    - family: DS-DIGI
+      fonts:
+        - asset: assets/fonts/DS-DIGIB.TTF
+        - asset: assets/fonts/DS-DIGI.TTF
+        - asset: assets/fonts/DS-DIGII.TTF
+        - asset: assets/fonts/DS-DIGIT.TTF
+          
+  
